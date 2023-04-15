@@ -1,0 +1,95 @@
+body {
+    background-color: #0D748A;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+.arealogin{
+    display: flex;
+    height: 910px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.fundo{
+    background-color: #3F8BA3;
+    width: 1128px;
+    height: 570px;
+    padding: 35px;
+    border-radius: 50px;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login P{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #F5F5F5;
+    font-size: 30px;
+}
+
+.login input{
+    margin-top: 17px;
+    width: 374px;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    background-color: #75C8E2;
+    font-size: 17px;
+    margin-left: -11px;
+}
+
+.cadastro input{
+    margin-top: 17px;
+    width: 374px;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    background-color: #75C8E2;
+    margin-left: 135PX;
+    
+    
+}
+
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.cadastro p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 135PX;
+    font-size: 30px;
+    color: #F5F5F5;
+    
+}
+
+
+.login .cadastro button{
+font-family: 'Montserrat', sans-serif;
+color: #F5F5F5;
+cursor: pointer;
+box-sizing: border-box;
+}
+
+.cadastro .nao{
+    font-size: 13px;
+    padding-top: 0px;
+}
+
+
